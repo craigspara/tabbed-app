@@ -1,0 +1,63 @@
+.tabbed-widget__tab {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    display: block;
+    text-align: center;
+    height: auto;
+    background-color: #eeeeee;
+}
+
+
+
+.tabbed-widget__tab-link {
+    display: block;
+    height: 41px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 14px;
+    font-family: "BrandonGrotesqueWeb-Regular", "BertholdAkzidenzGroteskLight", Helvetica, Arial, sans-serif;
+    font-size: 0.92307692em;
+    color: #676767;
+    text-transform: uppercase;
+}
+
+/* Interaction */
+.tabbed-widget__tab-link {
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #eeeeee;
+}
+
+.tabbed-widget__tab-link:hover, .tabbed-widget__tab-link:active {
+    color: #676767;
+    background-color: #dddddd;
+}
+
+.tabbed-widget__tab:focus {
+    outline: none;
+}
+
+.tabbed-widget__tab:focus .tabbed-widget__tab-link {
+    color: #676767;
+    background-color: #dddddd;
+}
+
+
+.tabbed-widget__tab[aria-selected].tabbed-widget__tab_current-category .tabbed-widget__tab-link {
+    background-color: #071c2c;
+    color: #fff;
+}
+.tabbed-widget__tab[aria-selected="true"] .tabbed-widget__tab-link {
+    color: #676767;
+    background-color: #dddddd;
+}
+
+/* ie8 fallback */
+.ie8 .tabbed-widget__tab-link {
+    display: table-cell;
+    text-align: center;
+    padding: 1em;
+}

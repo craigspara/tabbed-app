@@ -10,7 +10,7 @@
             "panelHeading": "Panel 1",
             "panelBody": "Lorum ipsum sit dolar.",
             "labeledBy": "tabbed-widget__tab1",
-            "isPanelExpanded": false
+            "isPanelExpanded": true
           },
           {
             "id": "tabbed-widget__tab-panel2",
@@ -32,7 +32,7 @@
             "id": "tabbed-widget__tab1",
             "tabLabel": "Tab 1",
             "ariaControls": "tabbed-widget__tab-panel1",
-            "ariaSelected": false
+            "ariaSelected": true
           },
           {
             "id": "tabbed-widget__tab2",
@@ -57,7 +57,7 @@
             "panelHeading": "Panel 1",
             "panelBody": "Lorum ipsum sit dolar.",
             "labeledBy": "tabbed-widget__tab1",
-            "isPanelExpanded": false
+            "isPanelExpanded": true
           },
           {
             "id": "tabbed-widget__tab-panel2",
@@ -79,7 +79,7 @@
             "id": "tabbed-widget__tab1",
             "tabLabel": "Tab 1",
             "ariaControls": "tabbed-widget__tab-panel1",
-            "ariaSelected": false
+            "ariaSelected": true
           },
           {
             "id": "tabbed-widget__tab2",

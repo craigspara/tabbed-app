@@ -1,0 +1,36 @@
+.tabbed-widget__nav-wrapper {
+    position: relative;
+    z-index: 1;
+    margin-top: -41px;
+    /*width: 165px;*/
+    height: 41px;
+    /*background-color: #cccccc; */
+}
+
+.tabbed-widget__nav {
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.tabbed-widget_horizontal .tabbed-widget__nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.tabbed-widget__nav .tabbed-widget__tab {
+    /* Align li elements evenly in a column */
+    /* Container LI to center A element vertically*/
+}
+
+/*
+    Legacy Firefox implementation treats all flex containers
+    as inline-block elements.
+*/
+@-moz-document url-prefix() {
+    .tabbed-widget__nav {
+        width: 100%;
+        -moz-box-sizing: border-box;
+    }
+}

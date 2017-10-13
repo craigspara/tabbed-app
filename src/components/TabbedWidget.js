@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './TabbedWidget.css';
 import Panels from './Panels';
 import Tabs from './Tabs';
 

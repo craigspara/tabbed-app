@@ -3,7 +3,7 @@ import './App.css';
 
 import TabbedWidgetList from './components/TabbedWidgetList';
 import StateApi from './state-api/StateApi';
-import {data} from './data';
+import { data } from './data';
 
 const api = new StateApi(data);
 
