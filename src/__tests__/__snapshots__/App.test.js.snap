@@ -1,0 +1,998 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App
+    tabbedWidgets={
+        Object {
+            "a": Object {
+              "id": "a",
+            },
+            "b": Object {
+              "id": "b",
+            },
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <header
+          className="App-header"
+>
+          <h1
+                    className="App-title"
+          >
+                    React based Tabbed widget
+          </h1>
+</header>,
+        <p
+          className="App-intro"
+>
+          A Tabbed widget built in React.
+</p>,
+        <TabbedWidgetList
+          api={
+                    StateApi {
+                              "getPanels": [Function],
+                              "getTabs": [Function],
+                              "getWidgets": [Function],
+                              "rawData": Object {
+                                "tabbedWidgets": Array [
+                                  Object {
+                                    "id": "tabbed-widget_1",
+                                    "panels": Array [
+                                      Object {
+                                        "id": "tabbed-widget__tab-panel1",
+                                        "isPanelExpanded": false,
+                                        "labeledBy": "tabbed-widget__tab1",
+                                        "panelBody": "Lorum ipsum sit dolar.",
+                                        "panelHeading": "Panel 1",
+                                      },
+                                      Object {
+                                        "id": "tabbed-widget__tab-panel2",
+                                        "isPanelExpanded": false,
+                                        "labeledBy": "tabbed-widget__tab2",
+                                        "panelBody": "Lorum ipsum sit dolar.",
+                                        "panelHeading": "Panel 2",
+                                      },
+                                      Object {
+                                        "id": "tabbed-widget__tab-panel3",
+                                        "isPanelExpanded": false,
+                                        "labeledBy": "tabbed-widget__tab3",
+                                        "panelBody": "Lorum ipsum sit dolar.",
+                                        "panelHeading": "Panel 3",
+                                      },
+                                    ],
+                                    "tabs": Array [
+                                      Object {
+                                        "ariaControls": "tabbed-widget__tab-panel1",
+                                        "ariaSelected": false,
+                                        "id": "tabbed-widget__tab1",
+                                        "tabLabel": "Tab 1",
+                                      },
+                                      Object {
+                                        "ariaControls": "tabbed-widget__tab-panel2",
+                                        "ariaSelected": false,
+                                        "id": "tabbed-widget__tab2",
+                                        "tabLabel": "Tab 2",
+                                      },
+                                      Object {
+                                        "ariaControls": "tabbed-widget__tab-panel3",
+                                        "ariaSelected": false,
+                                        "id": "tabbed-widget__tab3",
+                                        "tabLabel": "Tab 3",
+                                      },
+                                    ],
+                                    "widgetHeading": "Widget 1",
+                                  },
+                                  Object {
+                                    "id": "tabbed-widget_2",
+                                    "panels": Array [
+                                      Object {
+                                        "id": "tabbed-widget__tab-panel1",
+                                        "isPanelExpanded": false,
+                                        "labeledBy": "tabbed-widget__tab1",
+                                        "panelBody": "Lorum ipsum sit dolar.",
+                                        "panelHeading": "Panel 1",
+                                      },
+                                      Object {
+                                        "id": "tabbed-widget__tab-panel2",
+                                        "isPanelExpanded": false,
+                                        "labeledBy": "tabbed-widget__tab2",
+                                        "panelBody": "Lorum ipsum sit dolar.",
+                                        "panelHeading": "Panel 2",
+                                      },
+                                      Object {
+                                        "id": "tabbed-widget__tab-panel3",
+                                        "isPanelExpanded": false,
+                                        "labeledBy": "tabbed-widget__tab3",
+                                        "panelBody": "Lorum ipsum sit dolar.",
+                                        "panelHeading": "Panel 3",
+                                      },
+                                    ],
+                                    "tabs": Array [
+                                      Object {
+                                        "ariaControls": "tabbed-widget__tab-panel1",
+                                        "ariaSelected": false,
+                                        "id": "tabbed-widget__tab1",
+                                        "tabLabel": "Tab 1",
+                                      },
+                                      Object {
+                                        "ariaControls": "tabbed-widget__tab-panel2",
+                                        "ariaSelected": false,
+                                        "id": "tabbed-widget__tab2",
+                                        "tabLabel": "Tab 2",
+                                      },
+                                      Object {
+                                        "ariaControls": "tabbed-widget__tab-panel3",
+                                        "ariaSelected": false,
+                                        "id": "tabbed-widget__tab3",
+                                        "tabLabel": "Tab 3",
+                                      },
+                                    ],
+                                    "widgetHeading": "Widget 2",
+                                  },
+                                ],
+                              },
+                            }
+          }
+          tabbedWidgets={
+                    Object {
+                              "tabbed-widget_1": Object {
+                                "id": "tabbed-widget_1",
+                                "panels": Array [
+                                  Object {
+                                    "id": "tabbed-widget__tab-panel1",
+                                    "isPanelExpanded": false,
+                                    "labeledBy": "tabbed-widget__tab1",
+                                    "panelBody": "Lorum ipsum sit dolar.",
+                                    "panelHeading": "Panel 1",
+                                  },
+                                  Object {
+                                    "id": "tabbed-widget__tab-panel2",
+                                    "isPanelExpanded": false,
+                                    "labeledBy": "tabbed-widget__tab2",
+                                    "panelBody": "Lorum ipsum sit dolar.",
+                                    "panelHeading": "Panel 2",
+                                  },
+                                  Object {
+                                    "id": "tabbed-widget__tab-panel3",
+                                    "isPanelExpanded": false,
+                                    "labeledBy": "tabbed-widget__tab3",
+                                    "panelBody": "Lorum ipsum sit dolar.",
+                                    "panelHeading": "Panel 3",
+                                  },
+                                ],
+                                "tabs": Array [
+                                  Object {
+                                    "ariaControls": "tabbed-widget__tab-panel1",
+                                    "ariaSelected": false,
+                                    "id": "tabbed-widget__tab1",
+                                    "tabLabel": "Tab 1",
+                                  },
+                                  Object {
+                                    "ariaControls": "tabbed-widget__tab-panel2",
+                                    "ariaSelected": false,
+                                    "id": "tabbed-widget__tab2",
+                                    "tabLabel": "Tab 2",
+                                  },
+                                  Object {
+                                    "ariaControls": "tabbed-widget__tab-panel3",
+                                    "ariaSelected": false,
+                                    "id": "tabbed-widget__tab3",
+                                    "tabLabel": "Tab 3",
+                                  },
+                                ],
+                                "widgetHeading": "Widget 1",
+                              },
+                              "tabbed-widget_2": Object {
+                                "id": "tabbed-widget_2",
+                                "panels": Array [
+                                  Object {
+                                    "id": "tabbed-widget__tab-panel1",
+                                    "isPanelExpanded": false,
+                                    "labeledBy": "tabbed-widget__tab1",
+                                    "panelBody": "Lorum ipsum sit dolar.",
+                                    "panelHeading": "Panel 1",
+                                  },
+                                  Object {
+                                    "id": "tabbed-widget__tab-panel2",
+                                    "isPanelExpanded": false,
+                                    "labeledBy": "tabbed-widget__tab2",
+                                    "panelBody": "Lorum ipsum sit dolar.",
+                                    "panelHeading": "Panel 2",
+                                  },
+                                  Object {
+                                    "id": "tabbed-widget__tab-panel3",
+                                    "isPanelExpanded": false,
+                                    "labeledBy": "tabbed-widget__tab3",
+                                    "panelBody": "Lorum ipsum sit dolar.",
+                                    "panelHeading": "Panel 3",
+                                  },
+                                ],
+                                "tabs": Array [
+                                  Object {
+                                    "ariaControls": "tabbed-widget__tab-panel1",
+                                    "ariaSelected": false,
+                                    "id": "tabbed-widget__tab1",
+                                    "tabLabel": "Tab 1",
+                                  },
+                                  Object {
+                                    "ariaControls": "tabbed-widget__tab-panel2",
+                                    "ariaSelected": false,
+                                    "id": "tabbed-widget__tab2",
+                                    "tabLabel": "Tab 2",
+                                  },
+                                  Object {
+                                    "ariaControls": "tabbed-widget__tab-panel3",
+                                    "ariaSelected": false,
+                                    "id": "tabbed-widget__tab3",
+                                    "tabLabel": "Tab 3",
+                                  },
+                                ],
+                                "widgetHeading": "Widget 2",
+                              },
+                            }
+          }
+/>,
+      ],
+      "className": "App",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": <h1
+            className="App-title"
+>
+            React based Tabbed widget
+</h1>,
+          "className": "App-header",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": "React based Tabbed widget",
+            "className": "App-title",
+          },
+          "ref": null,
+          "rendered": "React based Tabbed widget",
+          "type": "h1",
+        },
+        "type": "header",
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": "A Tabbed widget built in React.",
+          "className": "App-intro",
+        },
+        "ref": null,
+        "rendered": "A Tabbed widget built in React.",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "api": StateApi {
+            "getPanels": [Function],
+            "getTabs": [Function],
+            "getWidgets": [Function],
+            "rawData": Object {
+              "tabbedWidgets": Array [
+                Object {
+                  "id": "tabbed-widget_1",
+                  "panels": Array [
+                    Object {
+                      "id": "tabbed-widget__tab-panel1",
+                      "isPanelExpanded": false,
+                      "labeledBy": "tabbed-widget__tab1",
+                      "panelBody": "Lorum ipsum sit dolar.",
+                      "panelHeading": "Panel 1",
+                    },
+                    Object {
+                      "id": "tabbed-widget__tab-panel2",
+                      "isPanelExpanded": false,
+                      "labeledBy": "tabbed-widget__tab2",
+                      "panelBody": "Lorum ipsum sit dolar.",
+                      "panelHeading": "Panel 2",
+                    },
+                    Object {
+                      "id": "tabbed-widget__tab-panel3",
+                      "isPanelExpanded": false,
+                      "labeledBy": "tabbed-widget__tab3",
+                      "panelBody": "Lorum ipsum sit dolar.",
+                      "panelHeading": "Panel 3",
+                    },
+                  ],
+                  "tabs": Array [
+                    Object {
+                      "ariaControls": "tabbed-widget__tab-panel1",
+                      "ariaSelected": false,
+                      "id": "tabbed-widget__tab1",
+                      "tabLabel": "Tab 1",
+                    },
+                    Object {
+                      "ariaControls": "tabbed-widget__tab-panel2",
+                      "ariaSelected": false,
+                      "id": "tabbed-widget__tab2",
+                      "tabLabel": "Tab 2",
+                    },
+                    Object {
+                      "ariaControls": "tabbed-widget__tab-panel3",
+                      "ariaSelected": false,
+                      "id": "tabbed-widget__tab3",
+                      "tabLabel": "Tab 3",
+                    },
+                  ],
+                  "widgetHeading": "Widget 1",
+                },
+                Object {
+                  "id": "tabbed-widget_2",
+                  "panels": Array [
+                    Object {
+                      "id": "tabbed-widget__tab-panel1",
+                      "isPanelExpanded": false,
+                      "labeledBy": "tabbed-widget__tab1",
+                      "panelBody": "Lorum ipsum sit dolar.",
+                      "panelHeading": "Panel 1",
+                    },
+                    Object {
+                      "id": "tabbed-widget__tab-panel2",
+                      "isPanelExpanded": false,
+                      "labeledBy": "tabbed-widget__tab2",
+                      "panelBody": "Lorum ipsum sit dolar.",
+                      "panelHeading": "Panel 2",
+                    },
+                    Object {
+                      "id": "tabbed-widget__tab-panel3",
+                      "isPanelExpanded": false,
+                      "labeledBy": "tabbed-widget__tab3",
+                      "panelBody": "Lorum ipsum sit dolar.",
+                      "panelHeading": "Panel 3",
+                    },
+                  ],
+                  "tabs": Array [
+                    Object {
+                      "ariaControls": "tabbed-widget__tab-panel1",
+                      "ariaSelected": false,
+                      "id": "tabbed-widget__tab1",
+                      "tabLabel": "Tab 1",
+                    },
+                    Object {
+                      "ariaControls": "tabbed-widget__tab-panel2",
+                      "ariaSelected": false,
+                      "id": "tabbed-widget__tab2",
+                      "tabLabel": "Tab 2",
+                    },
+                    Object {
+                      "ariaControls": "tabbed-widget__tab-panel3",
+                      "ariaSelected": false,
+                      "id": "tabbed-widget__tab3",
+                      "tabLabel": "Tab 3",
+                    },
+                  ],
+                  "widgetHeading": "Widget 2",
+                },
+              ],
+            },
+          },
+          "tabbedWidgets": Object {
+            "tabbed-widget_1": Object {
+              "id": "tabbed-widget_1",
+              "panels": Array [
+                Object {
+                  "id": "tabbed-widget__tab-panel1",
+                  "isPanelExpanded": false,
+                  "labeledBy": "tabbed-widget__tab1",
+                  "panelBody": "Lorum ipsum sit dolar.",
+                  "panelHeading": "Panel 1",
+                },
+                Object {
+                  "id": "tabbed-widget__tab-panel2",
+                  "isPanelExpanded": false,
+                  "labeledBy": "tabbed-widget__tab2",
+                  "panelBody": "Lorum ipsum sit dolar.",
+                  "panelHeading": "Panel 2",
+                },
+                Object {
+                  "id": "tabbed-widget__tab-panel3",
+                  "isPanelExpanded": false,
+                  "labeledBy": "tabbed-widget__tab3",
+                  "panelBody": "Lorum ipsum sit dolar.",
+                  "panelHeading": "Panel 3",
+                },
+              ],
+              "tabs": Array [
+                Object {
+                  "ariaControls": "tabbed-widget__tab-panel1",
+                  "ariaSelected": false,
+                  "id": "tabbed-widget__tab1",
+                  "tabLabel": "Tab 1",
+                },
+                Object {
+                  "ariaControls": "tabbed-widget__tab-panel2",
+                  "ariaSelected": false,
+                  "id": "tabbed-widget__tab2",
+                  "tabLabel": "Tab 2",
+                },
+                Object {
+                  "ariaControls": "tabbed-widget__tab-panel3",
+                  "ariaSelected": false,
+                  "id": "tabbed-widget__tab3",
+                  "tabLabel": "Tab 3",
+                },
+              ],
+              "widgetHeading": "Widget 1",
+            },
+            "tabbed-widget_2": Object {
+              "id": "tabbed-widget_2",
+              "panels": Array [
+                Object {
+                  "id": "tabbed-widget__tab-panel1",
+                  "isPanelExpanded": false,
+                  "labeledBy": "tabbed-widget__tab1",
+                  "panelBody": "Lorum ipsum sit dolar.",
+                  "panelHeading": "Panel 1",
+                },
+                Object {
+                  "id": "tabbed-widget__tab-panel2",
+                  "isPanelExpanded": false,
+                  "labeledBy": "tabbed-widget__tab2",
+                  "panelBody": "Lorum ipsum sit dolar.",
+                  "panelHeading": "Panel 2",
+                },
+                Object {
+                  "id": "tabbed-widget__tab-panel3",
+                  "isPanelExpanded": false,
+                  "labeledBy": "tabbed-widget__tab3",
+                  "panelBody": "Lorum ipsum sit dolar.",
+                  "panelHeading": "Panel 3",
+                },
+              ],
+              "tabs": Array [
+                Object {
+                  "ariaControls": "tabbed-widget__tab-panel1",
+                  "ariaSelected": false,
+                  "id": "tabbed-widget__tab1",
+                  "tabLabel": "Tab 1",
+                },
+                Object {
+                  "ariaControls": "tabbed-widget__tab-panel2",
+                  "ariaSelected": false,
+                  "id": "tabbed-widget__tab2",
+                  "tabLabel": "Tab 2",
+                },
+                Object {
+                  "ariaControls": "tabbed-widget__tab-panel3",
+                  "ariaSelected": false,
+                  "id": "tabbed-widget__tab3",
+                  "tabLabel": "Tab 3",
+                },
+              ],
+              "widgetHeading": "Widget 2",
+            },
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <header
+            className="App-header"
+>
+            <h1
+                        className="App-title"
+            >
+                        React based Tabbed widget
+            </h1>
+</header>,
+          <p
+            className="App-intro"
+>
+            A Tabbed widget built in React.
+</p>,
+          <TabbedWidgetList
+            api={
+                        StateApi {
+                                    "getPanels": [Function],
+                                    "getTabs": [Function],
+                                    "getWidgets": [Function],
+                                    "rawData": Object {
+                                      "tabbedWidgets": Array [
+                                        Object {
+                                          "id": "tabbed-widget_1",
+                                          "panels": Array [
+                                            Object {
+                                              "id": "tabbed-widget__tab-panel1",
+                                              "isPanelExpanded": false,
+                                              "labeledBy": "tabbed-widget__tab1",
+                                              "panelBody": "Lorum ipsum sit dolar.",
+                                              "panelHeading": "Panel 1",
+                                            },
+                                            Object {
+                                              "id": "tabbed-widget__tab-panel2",
+                                              "isPanelExpanded": false,
+                                              "labeledBy": "tabbed-widget__tab2",
+                                              "panelBody": "Lorum ipsum sit dolar.",
+                                              "panelHeading": "Panel 2",
+                                            },
+                                            Object {
+                                              "id": "tabbed-widget__tab-panel3",
+                                              "isPanelExpanded": false,
+                                              "labeledBy": "tabbed-widget__tab3",
+                                              "panelBody": "Lorum ipsum sit dolar.",
+                                              "panelHeading": "Panel 3",
+                                            },
+                                          ],
+                                          "tabs": Array [
+                                            Object {
+                                              "ariaControls": "tabbed-widget__tab-panel1",
+                                              "ariaSelected": false,
+                                              "id": "tabbed-widget__tab1",
+                                              "tabLabel": "Tab 1",
+                                            },
+                                            Object {
+                                              "ariaControls": "tabbed-widget__tab-panel2",
+                                              "ariaSelected": false,
+                                              "id": "tabbed-widget__tab2",
+                                              "tabLabel": "Tab 2",
+                                            },
+                                            Object {
+                                              "ariaControls": "tabbed-widget__tab-panel3",
+                                              "ariaSelected": false,
+                                              "id": "tabbed-widget__tab3",
+                                              "tabLabel": "Tab 3",
+                                            },
+                                          ],
+                                          "widgetHeading": "Widget 1",
+                                        },
+                                        Object {
+                                          "id": "tabbed-widget_2",
+                                          "panels": Array [
+                                            Object {
+                                              "id": "tabbed-widget__tab-panel1",
+                                              "isPanelExpanded": false,
+                                              "labeledBy": "tabbed-widget__tab1",
+                                              "panelBody": "Lorum ipsum sit dolar.",
+                                              "panelHeading": "Panel 1",
+                                            },
+                                            Object {
+                                              "id": "tabbed-widget__tab-panel2",
+                                              "isPanelExpanded": false,
+                                              "labeledBy": "tabbed-widget__tab2",
+                                              "panelBody": "Lorum ipsum sit dolar.",
+                                              "panelHeading": "Panel 2",
+                                            },
+                                            Object {
+                                              "id": "tabbed-widget__tab-panel3",
+                                              "isPanelExpanded": false,
+                                              "labeledBy": "tabbed-widget__tab3",
+                                              "panelBody": "Lorum ipsum sit dolar.",
+                                              "panelHeading": "Panel 3",
+                                            },
+                                          ],
+                                          "tabs": Array [
+                                            Object {
+                                              "ariaControls": "tabbed-widget__tab-panel1",
+                                              "ariaSelected": false,
+                                              "id": "tabbed-widget__tab1",
+                                              "tabLabel": "Tab 1",
+                                            },
+                                            Object {
+                                              "ariaControls": "tabbed-widget__tab-panel2",
+                                              "ariaSelected": false,
+                                              "id": "tabbed-widget__tab2",
+                                              "tabLabel": "Tab 2",
+                                            },
+                                            Object {
+                                              "ariaControls": "tabbed-widget__tab-panel3",
+                                              "ariaSelected": false,
+                                              "id": "tabbed-widget__tab3",
+                                              "tabLabel": "Tab 3",
+                                            },
+                                          ],
+                                          "widgetHeading": "Widget 2",
+                                        },
+                                      ],
+                                    },
+                                  }
+            }
+            tabbedWidgets={
+                        Object {
+                                    "tabbed-widget_1": Object {
+                                      "id": "tabbed-widget_1",
+                                      "panels": Array [
+                                        Object {
+                                          "id": "tabbed-widget__tab-panel1",
+                                          "isPanelExpanded": false,
+                                          "labeledBy": "tabbed-widget__tab1",
+                                          "panelBody": "Lorum ipsum sit dolar.",
+                                          "panelHeading": "Panel 1",
+                                        },
+                                        Object {
+                                          "id": "tabbed-widget__tab-panel2",
+                                          "isPanelExpanded": false,
+                                          "labeledBy": "tabbed-widget__tab2",
+                                          "panelBody": "Lorum ipsum sit dolar.",
+                                          "panelHeading": "Panel 2",
+                                        },
+                                        Object {
+                                          "id": "tabbed-widget__tab-panel3",
+                                          "isPanelExpanded": false,
+                                          "labeledBy": "tabbed-widget__tab3",
+                                          "panelBody": "Lorum ipsum sit dolar.",
+                                          "panelHeading": "Panel 3",
+                                        },
+                                      ],
+                                      "tabs": Array [
+                                        Object {
+                                          "ariaControls": "tabbed-widget__tab-panel1",
+                                          "ariaSelected": false,
+                                          "id": "tabbed-widget__tab1",
+                                          "tabLabel": "Tab 1",
+                                        },
+                                        Object {
+                                          "ariaControls": "tabbed-widget__tab-panel2",
+                                          "ariaSelected": false,
+                                          "id": "tabbed-widget__tab2",
+                                          "tabLabel": "Tab 2",
+                                        },
+                                        Object {
+                                          "ariaControls": "tabbed-widget__tab-panel3",
+                                          "ariaSelected": false,
+                                          "id": "tabbed-widget__tab3",
+                                          "tabLabel": "Tab 3",
+                                        },
+                                      ],
+                                      "widgetHeading": "Widget 1",
+                                    },
+                                    "tabbed-widget_2": Object {
+                                      "id": "tabbed-widget_2",
+                                      "panels": Array [
+                                        Object {
+                                          "id": "tabbed-widget__tab-panel1",
+                                          "isPanelExpanded": false,
+                                          "labeledBy": "tabbed-widget__tab1",
+                                          "panelBody": "Lorum ipsum sit dolar.",
+                                          "panelHeading": "Panel 1",
+                                        },
+                                        Object {
+                                          "id": "tabbed-widget__tab-panel2",
+                                          "isPanelExpanded": false,
+                                          "labeledBy": "tabbed-widget__tab2",
+                                          "panelBody": "Lorum ipsum sit dolar.",
+                                          "panelHeading": "Panel 2",
+                                        },
+                                        Object {
+                                          "id": "tabbed-widget__tab-panel3",
+                                          "isPanelExpanded": false,
+                                          "labeledBy": "tabbed-widget__tab3",
+                                          "panelBody": "Lorum ipsum sit dolar.",
+                                          "panelHeading": "Panel 3",
+                                        },
+                                      ],
+                                      "tabs": Array [
+                                        Object {
+                                          "ariaControls": "tabbed-widget__tab-panel1",
+                                          "ariaSelected": false,
+                                          "id": "tabbed-widget__tab1",
+                                          "tabLabel": "Tab 1",
+                                        },
+                                        Object {
+                                          "ariaControls": "tabbed-widget__tab-panel2",
+                                          "ariaSelected": false,
+                                          "id": "tabbed-widget__tab2",
+                                          "tabLabel": "Tab 2",
+                                        },
+                                        Object {
+                                          "ariaControls": "tabbed-widget__tab-panel3",
+                                          "ariaSelected": false,
+                                          "id": "tabbed-widget__tab3",
+                                          "tabLabel": "Tab 3",
+                                        },
+                                      ],
+                                      "widgetHeading": "Widget 2",
+                                    },
+                                  }
+            }
+/>,
+        ],
+        "className": "App",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": <h1
+              className="App-title"
+>
+              React based Tabbed widget
+</h1>,
+            "className": "App-header",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "host",
+            "props": Object {
+              "children": "React based Tabbed widget",
+              "className": "App-title",
+            },
+            "ref": null,
+            "rendered": "React based Tabbed widget",
+            "type": "h1",
+          },
+          "type": "header",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": "A Tabbed widget built in React.",
+            "className": "App-intro",
+          },
+          "ref": null,
+          "rendered": "A Tabbed widget built in React.",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "api": StateApi {
+              "getPanels": [Function],
+              "getTabs": [Function],
+              "getWidgets": [Function],
+              "rawData": Object {
+                "tabbedWidgets": Array [
+                  Object {
+                    "id": "tabbed-widget_1",
+                    "panels": Array [
+                      Object {
+                        "id": "tabbed-widget__tab-panel1",
+                        "isPanelExpanded": false,
+                        "labeledBy": "tabbed-widget__tab1",
+                        "panelBody": "Lorum ipsum sit dolar.",
+                        "panelHeading": "Panel 1",
+                      },
+                      Object {
+                        "id": "tabbed-widget__tab-panel2",
+                        "isPanelExpanded": false,
+                        "labeledBy": "tabbed-widget__tab2",
+                        "panelBody": "Lorum ipsum sit dolar.",
+                        "panelHeading": "Panel 2",
+                      },
+                      Object {
+                        "id": "tabbed-widget__tab-panel3",
+                        "isPanelExpanded": false,
+                        "labeledBy": "tabbed-widget__tab3",
+                        "panelBody": "Lorum ipsum sit dolar.",
+                        "panelHeading": "Panel 3",
+                      },
+                    ],
+                    "tabs": Array [
+                      Object {
+                        "ariaControls": "tabbed-widget__tab-panel1",
+                        "ariaSelected": false,
+                        "id": "tabbed-widget__tab1",
+                        "tabLabel": "Tab 1",
+                      },
+                      Object {
+                        "ariaControls": "tabbed-widget__tab-panel2",
+                        "ariaSelected": false,
+                        "id": "tabbed-widget__tab2",
+                        "tabLabel": "Tab 2",
+                      },
+                      Object {
+                        "ariaControls": "tabbed-widget__tab-panel3",
+                        "ariaSelected": false,
+                        "id": "tabbed-widget__tab3",
+                        "tabLabel": "Tab 3",
+                      },
+                    ],
+                    "widgetHeading": "Widget 1",
+                  },
+                  Object {
+                    "id": "tabbed-widget_2",
+                    "panels": Array [
+                      Object {
+                        "id": "tabbed-widget__tab-panel1",
+                        "isPanelExpanded": false,
+                        "labeledBy": "tabbed-widget__tab1",
+                        "panelBody": "Lorum ipsum sit dolar.",
+                        "panelHeading": "Panel 1",
+                      },
+                      Object {
+                        "id": "tabbed-widget__tab-panel2",
+                        "isPanelExpanded": false,
+                        "labeledBy": "tabbed-widget__tab2",
+                        "panelBody": "Lorum ipsum sit dolar.",
+                        "panelHeading": "Panel 2",
+                      },
+                      Object {
+                        "id": "tabbed-widget__tab-panel3",
+                        "isPanelExpanded": false,
+                        "labeledBy": "tabbed-widget__tab3",
+                        "panelBody": "Lorum ipsum sit dolar.",
+                        "panelHeading": "Panel 3",
+                      },
+                    ],
+                    "tabs": Array [
+                      Object {
+                        "ariaControls": "tabbed-widget__tab-panel1",
+                        "ariaSelected": false,
+                        "id": "tabbed-widget__tab1",
+                        "tabLabel": "Tab 1",
+                      },
+                      Object {
+                        "ariaControls": "tabbed-widget__tab-panel2",
+                        "ariaSelected": false,
+                        "id": "tabbed-widget__tab2",
+                        "tabLabel": "Tab 2",
+                      },
+                      Object {
+                        "ariaControls": "tabbed-widget__tab-panel3",
+                        "ariaSelected": false,
+                        "id": "tabbed-widget__tab3",
+                        "tabLabel": "Tab 3",
+                      },
+                    ],
+                    "widgetHeading": "Widget 2",
+                  },
+                ],
+              },
+            },
+            "tabbedWidgets": Object {
+              "tabbed-widget_1": Object {
+                "id": "tabbed-widget_1",
+                "panels": Array [
+                  Object {
+                    "id": "tabbed-widget__tab-panel1",
+                    "isPanelExpanded": false,
+                    "labeledBy": "tabbed-widget__tab1",
+                    "panelBody": "Lorum ipsum sit dolar.",
+                    "panelHeading": "Panel 1",
+                  },
+                  Object {
+                    "id": "tabbed-widget__tab-panel2",
+                    "isPanelExpanded": false,
+                    "labeledBy": "tabbed-widget__tab2",
+                    "panelBody": "Lorum ipsum sit dolar.",
+                    "panelHeading": "Panel 2",
+                  },
+                  Object {
+                    "id": "tabbed-widget__tab-panel3",
+                    "isPanelExpanded": false,
+                    "labeledBy": "tabbed-widget__tab3",
+                    "panelBody": "Lorum ipsum sit dolar.",
+                    "panelHeading": "Panel 3",
+                  },
+                ],
+                "tabs": Array [
+                  Object {
+                    "ariaControls": "tabbed-widget__tab-panel1",
+                    "ariaSelected": false,
+                    "id": "tabbed-widget__tab1",
+                    "tabLabel": "Tab 1",
+                  },
+                  Object {
+                    "ariaControls": "tabbed-widget__tab-panel2",
+                    "ariaSelected": false,
+                    "id": "tabbed-widget__tab2",
+                    "tabLabel": "Tab 2",
+                  },
+                  Object {
+                    "ariaControls": "tabbed-widget__tab-panel3",
+                    "ariaSelected": false,
+                    "id": "tabbed-widget__tab3",
+                    "tabLabel": "Tab 3",
+                  },
+                ],
+                "widgetHeading": "Widget 1",
+              },
+              "tabbed-widget_2": Object {
+                "id": "tabbed-widget_2",
+                "panels": Array [
+                  Object {
+                    "id": "tabbed-widget__tab-panel1",
+                    "isPanelExpanded": false,
+                    "labeledBy": "tabbed-widget__tab1",
+                    "panelBody": "Lorum ipsum sit dolar.",
+                    "panelHeading": "Panel 1",
+                  },
+                  Object {
+                    "id": "tabbed-widget__tab-panel2",
+                    "isPanelExpanded": false,
+                    "labeledBy": "tabbed-widget__tab2",
+                    "panelBody": "Lorum ipsum sit dolar.",
+                    "panelHeading": "Panel 2",
+                  },
+                  Object {
+                    "id": "tabbed-widget__tab-panel3",
+                    "isPanelExpanded": false,
+                    "labeledBy": "tabbed-widget__tab3",
+                    "panelBody": "Lorum ipsum sit dolar.",
+                    "panelHeading": "Panel 3",
+                  },
+                ],
+                "tabs": Array [
+                  Object {
+                    "ariaControls": "tabbed-widget__tab-panel1",
+                    "ariaSelected": false,
+                    "id": "tabbed-widget__tab1",
+                    "tabLabel": "Tab 1",
+                  },
+                  Object {
+                    "ariaControls": "tabbed-widget__tab-panel2",
+                    "ariaSelected": false,
+                    "id": "tabbed-widget__tab2",
+                    "tabLabel": "Tab 2",
+                  },
+                  Object {
+                    "ariaControls": "tabbed-widget__tab-panel3",
+                    "ariaSelected": false,
+                    "id": "tabbed-widget__tab3",
+                    "tabLabel": "Tab 3",
+                  },
+                ],
+                "widgetHeading": "Widget 2",
+              },
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
