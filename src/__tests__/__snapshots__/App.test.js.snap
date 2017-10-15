@@ -56,7 +56,7 @@ ShallowWrapper {
                                     "panels": Array [
                                       Object {
                                         "id": "tabbed-widget__tab-panel1",
-                                        "isPanelExpanded": false,
+                                        "isPanelExpanded": true,
                                         "labeledBy": "tabbed-widget__tab1",
                                         "panelBody": "Lorum ipsum sit dolar.",
                                         "panelHeading": "Panel 1",
@@ -79,7 +79,7 @@ ShallowWrapper {
                                     "tabs": Array [
                                       Object {
                                         "ariaControls": "tabbed-widget__tab-panel1",
-                                        "ariaSelected": false,
+                                        "ariaSelected": true,
                                         "id": "tabbed-widget__tab1",
                                         "tabLabel": "Tab 1",
                                       },
@@ -103,7 +103,7 @@ ShallowWrapper {
                                     "panels": Array [
                                       Object {
                                         "id": "tabbed-widget__tab-panel1",
-                                        "isPanelExpanded": false,
+                                        "isPanelExpanded": true,
                                         "labeledBy": "tabbed-widget__tab1",
                                         "panelBody": "Lorum ipsum sit dolar.",
                                         "panelHeading": "Panel 1",
@@ -126,7 +126,7 @@ ShallowWrapper {
                                     "tabs": Array [
                                       Object {
                                         "ariaControls": "tabbed-widget__tab-panel1",
-                                        "ariaSelected": false,
+                                        "ariaSelected": true,
                                         "id": "tabbed-widget__tab1",
                                         "tabLabel": "Tab 1",
                                       },
@@ -156,7 +156,7 @@ ShallowWrapper {
                                 "panels": Array [
                                   Object {
                                     "id": "tabbed-widget__tab-panel1",
-                                    "isPanelExpanded": false,
+                                    "isPanelExpanded": true,
                                     "labeledBy": "tabbed-widget__tab1",
                                     "panelBody": "Lorum ipsum sit dolar.",
                                     "panelHeading": "Panel 1",
@@ -179,7 +179,7 @@ ShallowWrapper {
                                 "tabs": Array [
                                   Object {
                                     "ariaControls": "tabbed-widget__tab-panel1",
-                                    "ariaSelected": false,
+                                    "ariaSelected": true,
                                     "id": "tabbed-widget__tab1",
                                     "tabLabel": "Tab 1",
                                   },
@@ -203,7 +203,7 @@ ShallowWrapper {
                                 "panels": Array [
                                   Object {
                                     "id": "tabbed-widget__tab-panel1",
-                                    "isPanelExpanded": false,
+                                    "isPanelExpanded": true,
                                     "labeledBy": "tabbed-widget__tab1",
                                     "panelBody": "Lorum ipsum sit dolar.",
                                     "panelHeading": "Panel 1",
@@ -226,7 +226,7 @@ ShallowWrapper {
                                 "tabs": Array [
                                   Object {
                                     "ariaControls": "tabbed-widget__tab-panel1",
-                                    "ariaSelected": false,
+                                    "ariaSelected": true,
                                     "id": "tabbed-widget__tab1",
                                     "tabLabel": "Tab 1",
                                   },
@@ -308,7 +308,7 @@ ShallowWrapper {
                   "panels": Array [
                     Object {
                       "id": "tabbed-widget__tab-panel1",
-                      "isPanelExpanded": false,
+                      "isPanelExpanded": true,
                       "labeledBy": "tabbed-widget__tab1",
                       "panelBody": "Lorum ipsum sit dolar.",
                       "panelHeading": "Panel 1",
@@ -331,7 +331,7 @@ ShallowWrapper {
                   "tabs": Array [
                     Object {
                       "ariaControls": "tabbed-widget__tab-panel1",
-                      "ariaSelected": false,
+                      "ariaSelected": true,
                       "id": "tabbed-widget__tab1",
                       "tabLabel": "Tab 1",
                     },
@@ -355,7 +355,7 @@ ShallowWrapper {
                   "panels": Array [
                     Object {
                       "id": "tabbed-widget__tab-panel1",
-                      "isPanelExpanded": false,
+                      "isPanelExpanded": true,
                       "labeledBy": "tabbed-widget__tab1",
                       "panelBody": "Lorum ipsum sit dolar.",
                       "panelHeading": "Panel 1",
@@ -378,7 +378,7 @@ ShallowWrapper {
                   "tabs": Array [
                     Object {
                       "ariaControls": "tabbed-widget__tab-panel1",
-                      "ariaSelected": false,
+                      "ariaSelected": true,
                       "id": "tabbed-widget__tab1",
                       "tabLabel": "Tab 1",
                     },
@@ -406,7 +406,7 @@ ShallowWrapper {
               "panels": Array [
                 Object {
                   "id": "tabbed-widget__tab-panel1",
-                  "isPanelExpanded": false,
+                  "isPanelExpanded": true,
                   "labeledBy": "tabbed-widget__tab1",
                   "panelBody": "Lorum ipsum sit dolar.",
                   "panelHeading": "Panel 1",
@@ -429,7 +429,7 @@ ShallowWrapper {
               "tabs": Array [
                 Object {
                   "ariaControls": "tabbed-widget__tab-panel1",
-                  "ariaSelected": false,
+                  "ariaSelected": true,
                   "id": "tabbed-widget__tab1",
                   "tabLabel": "Tab 1",
                 },
@@ -453,7 +453,7 @@ ShallowWrapper {
               "panels": Array [
                 Object {
                   "id": "tabbed-widget__tab-panel1",
-                  "isPanelExpanded": false,
+                  "isPanelExpanded": true,
                   "labeledBy": "tabbed-widget__tab1",
                   "panelBody": "Lorum ipsum sit dolar.",
                   "panelHeading": "Panel 1",
@@ -476,7 +476,7 @@ ShallowWrapper {
               "tabs": Array [
                 Object {
                   "ariaControls": "tabbed-widget__tab-panel1",
-                  "ariaSelected": false,
+                  "ariaSelected": true,
                   "id": "tabbed-widget__tab1",
                   "tabLabel": "Tab 1",
                 },
@@ -538,7 +538,7 @@ ShallowWrapper {
                                           "panels": Array [
                                             Object {
                                               "id": "tabbed-widget__tab-panel1",
-                                              "isPanelExpanded": false,
+                                              "isPanelExpanded": true,
                                               "labeledBy": "tabbed-widget__tab1",
                                               "panelBody": "Lorum ipsum sit dolar.",
                                               "panelHeading": "Panel 1",
@@ -561,7 +561,7 @@ ShallowWrapper {
                                           "tabs": Array [
                                             Object {
                                               "ariaControls": "tabbed-widget__tab-panel1",
-                                              "ariaSelected": false,
+                                              "ariaSelected": true,
                                               "id": "tabbed-widget__tab1",
                                               "tabLabel": "Tab 1",
                                             },
@@ -585,7 +585,7 @@ ShallowWrapper {
                                           "panels": Array [
                                             Object {
                                               "id": "tabbed-widget__tab-panel1",
-                                              "isPanelExpanded": false,
+                                              "isPanelExpanded": true,
                                               "labeledBy": "tabbed-widget__tab1",
                                               "panelBody": "Lorum ipsum sit dolar.",
                                               "panelHeading": "Panel 1",
@@ -608,7 +608,7 @@ ShallowWrapper {
                                           "tabs": Array [
                                             Object {
                                               "ariaControls": "tabbed-widget__tab-panel1",
-                                              "ariaSelected": false,
+                                              "ariaSelected": true,
                                               "id": "tabbed-widget__tab1",
                                               "tabLabel": "Tab 1",
                                             },
@@ -638,7 +638,7 @@ ShallowWrapper {
                                       "panels": Array [
                                         Object {
                                           "id": "tabbed-widget__tab-panel1",
-                                          "isPanelExpanded": false,
+                                          "isPanelExpanded": true,
                                           "labeledBy": "tabbed-widget__tab1",
                                           "panelBody": "Lorum ipsum sit dolar.",
                                           "panelHeading": "Panel 1",
@@ -661,7 +661,7 @@ ShallowWrapper {
                                       "tabs": Array [
                                         Object {
                                           "ariaControls": "tabbed-widget__tab-panel1",
-                                          "ariaSelected": false,
+                                          "ariaSelected": true,
                                           "id": "tabbed-widget__tab1",
                                           "tabLabel": "Tab 1",
                                         },
@@ -685,7 +685,7 @@ ShallowWrapper {
                                       "panels": Array [
                                         Object {
                                           "id": "tabbed-widget__tab-panel1",
-                                          "isPanelExpanded": false,
+                                          "isPanelExpanded": true,
                                           "labeledBy": "tabbed-widget__tab1",
                                           "panelBody": "Lorum ipsum sit dolar.",
                                           "panelHeading": "Panel 1",
@@ -708,7 +708,7 @@ ShallowWrapper {
                                       "tabs": Array [
                                         Object {
                                           "ariaControls": "tabbed-widget__tab-panel1",
-                                          "ariaSelected": false,
+                                          "ariaSelected": true,
                                           "id": "tabbed-widget__tab1",
                                           "tabLabel": "Tab 1",
                                         },
@@ -790,7 +790,7 @@ ShallowWrapper {
                     "panels": Array [
                       Object {
                         "id": "tabbed-widget__tab-panel1",
-                        "isPanelExpanded": false,
+                        "isPanelExpanded": true,
                         "labeledBy": "tabbed-widget__tab1",
                         "panelBody": "Lorum ipsum sit dolar.",
                         "panelHeading": "Panel 1",
@@ -813,7 +813,7 @@ ShallowWrapper {
                     "tabs": Array [
                       Object {
                         "ariaControls": "tabbed-widget__tab-panel1",
-                        "ariaSelected": false,
+                        "ariaSelected": true,
                         "id": "tabbed-widget__tab1",
                         "tabLabel": "Tab 1",
                       },
@@ -837,7 +837,7 @@ ShallowWrapper {
                     "panels": Array [
                       Object {
                         "id": "tabbed-widget__tab-panel1",
-                        "isPanelExpanded": false,
+                        "isPanelExpanded": true,
                         "labeledBy": "tabbed-widget__tab1",
                         "panelBody": "Lorum ipsum sit dolar.",
                         "panelHeading": "Panel 1",
@@ -860,7 +860,7 @@ ShallowWrapper {
                     "tabs": Array [
                       Object {
                         "ariaControls": "tabbed-widget__tab-panel1",
-                        "ariaSelected": false,
+                        "ariaSelected": true,
                         "id": "tabbed-widget__tab1",
                         "tabLabel": "Tab 1",
                       },
@@ -888,7 +888,7 @@ ShallowWrapper {
                 "panels": Array [
                   Object {
                     "id": "tabbed-widget__tab-panel1",
-                    "isPanelExpanded": false,
+                    "isPanelExpanded": true,
                     "labeledBy": "tabbed-widget__tab1",
                     "panelBody": "Lorum ipsum sit dolar.",
                     "panelHeading": "Panel 1",
@@ -911,7 +911,7 @@ ShallowWrapper {
                 "tabs": Array [
                   Object {
                     "ariaControls": "tabbed-widget__tab-panel1",
-                    "ariaSelected": false,
+                    "ariaSelected": true,
                     "id": "tabbed-widget__tab1",
                     "tabLabel": "Tab 1",
                   },
@@ -935,7 +935,7 @@ ShallowWrapper {
                 "panels": Array [
                   Object {
                     "id": "tabbed-widget__tab-panel1",
-                    "isPanelExpanded": false,
+                    "isPanelExpanded": true,
                     "labeledBy": "tabbed-widget__tab1",
                     "panelBody": "Lorum ipsum sit dolar.",
                     "panelHeading": "Panel 1",
@@ -958,7 +958,7 @@ ShallowWrapper {
                 "tabs": Array [
                   Object {
                     "ariaControls": "tabbed-widget__tab-panel1",
-                    "ariaSelected": false,
+                    "ariaSelected": true,
                     "id": "tabbed-widget__tab1",
                     "tabLabel": "Tab 1",
                   },

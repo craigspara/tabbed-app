@@ -5,7 +5,7 @@ import App from '../App';
 import Enzyme, { shallow } from 'enzyme';
 
 import StateApi from '../state-api/StateApi';
-import {data} from '../data';
+import { data } from '../data';
 import Adapter from 'enzyme-adapter-react-16';
 
 Enzyme.configure({ adapter: new Adapter() });
