@@ -10,13 +10,11 @@ import Adapter from 'enzyme-adapter-react-16';
 
 Enzyme.configure({ adapter: new Adapter() });
 
-const api = new StateApi(data);
+const store = new StateApi(data);
+const state = store.getState();
 
-
-// it('renders without crashing', () => {
-//   const div = document.createElement('div');
-//   ReactDOM.render(<App />, div);
-// });
+console.log(store);
+console.log(state);
 
 const testProps = {
   tabbedWidgets: {
@@ -27,24 +25,21 @@ const testProps = {
 
 describe('App', () => {
 
-  it('can access the GetWidget method through api', () => {
-    expect(api).toHaveProperty('getWidgets');
-  });
-
   it('Can get widgets', () => {
-    expect(api.getWidgets()).toBeDefined();
+    // console.info(store);
+    expect(store.getState()).toBeDefined();
   });
 
-  it('renders correctly', () => {
+  /*it('renders correctly', () => {
     const wrapper = shallow(
       <App
         {...testProps}
       />
     );
 
-    expect(wrapper.find('TabbedWidgetList').length).toBe(1);
+    expect(wrapper.find('Widgets').length).toBe(1);
 
     expect(wrapper).toMatchSnapshot();
-  });
+  });*/
 
 });
