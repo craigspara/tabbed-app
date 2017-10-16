@@ -2,11 +2,12 @@ import StateApi from '../StateApi';
 import { data } from '../../data';
 
 const store = new StateApi(data);
+// console.info(store.data);
 
 describe('The StateApi', () => {
 
-  const tabbedWidgets = store.getWidgets();
-  const tabbedWidget = tabbedWidgets[data.tabbedWidgets[0].id];
+  const tabbedWidgets = store.data;
+  const tabbedWidget = tabbedWidgets.Widgets[data.tabbedWidgets[0].id];
   const panels = store.getPanels(tabbedWidget.panels);
   const panel = panels[data.tabbedWidgets[0].panels[0].id];
   const tabs = store.getTabs(tabbedWidget.tabs);
@@ -39,12 +40,12 @@ describe('The StateApi', () => {
   });
 
   describe('A tabbedWidget', () => {
-    it('conatins an "id" property and is mapped correctly', () => {
+    it('contains an "id" property and is mapped correctly', () => {
       expect(tabbedWidget).toHaveProperty('id');
       expect(tabbedWidget.id).toBe(data.tabbedWidgets[0].id);
 
     });
-    it('conatins an "widgetHeading" property and is mapped correctly', () => {
+    it('contains an "widgetHeading" property and is mapped correctly', () => {
       expect(tabbedWidget).toHaveProperty('widgetHeading');
       expect(tabbedWidget.widgetHeading).toBe(data.tabbedWidgets[0].widgetHeading);
 
@@ -59,17 +60,17 @@ describe('The StateApi', () => {
 
       describe('A "panel"', () => {
 
-        it('conatins an "id" property and is mapped correctly', () => {
+        it('contains an "id" property and is mapped correctly', () => {
           expect(panel).toHaveProperty('id');
           expect(panel.id).toBe(data.tabbedWidgets[0].panels[0].id);
 
         });
-        it('conatins an "labeledBy" property and is mapped correctly', () => {
+        it('contains an "labeledBy" property and is mapped correctly', () => {
           expect(panel).toHaveProperty('labeledBy');
           expect(panel.labeledBy).toBe(data.tabbedWidgets[0].panels[0].labeledBy);
 
         });
-        it('conatins an "isPanelExpanded" property and is mapped correctly', () => {
+        it('contains an "isPanelExpanded" property and is mapped correctly', () => {
           expect(panel).toHaveProperty('isPanelExpanded');
           expect(panel.isPanelExpanded).toBe(data.tabbedWidgets[0].panels[0].isPanelExpanded);
 
@@ -88,22 +89,22 @@ describe('The StateApi', () => {
 
       describe('A "tab"', () => {
 
-        it('conatins an "id" property and is mapped correctly', () => {
+        it('contains an "id" property and is mapped correctly', () => {
           expect(tab).toHaveProperty('id');
           expect(tab.id).toBe(data.tabbedWidgets[0].tabs[0].id);
         });
 
-        it('conatins an "tabLabel" property and is mapped correctly', () => {
+        it('contains an "tabLabel" property and is mapped correctly', () => {
           expect(tab).toHaveProperty('tabLabel');
           expect(tab.tabLabel).toBe(data.tabbedWidgets[0].tabs[0].tabLabel);
         });
 
-        it('conatins an "ariaControls" property and is mapped correctly', () => {
+        it('contains an "ariaControls" property and is mapped correctly', () => {
           expect(tab).toHaveProperty('ariaControls');
           expect(tab.ariaControls).toBe(data.tabbedWidgets[0].tabs[0].ariaControls);
         });
 
-        it('conatins an "ariaSelected" property and is mapped correctly', () => {
+        it('contains an "ariaSelected" property and is mapped correctly', () => {
           expect(tab).toHaveProperty('ariaSelected');
           expect(tab.ariaSelected).toBe(data.tabbedWidgets[0].tabs[0].ariaSelected);
         });

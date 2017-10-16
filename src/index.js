@@ -2,7 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import StateApi from './state-api/StateApi';
+import { data } from './data';
+
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const store = new StateApi(data);
+console.log(store);
+ReactDOM.render(<App store={store} />, document.getElementById('root'));
 registerServiceWorker();

@@ -1,6 +1,8 @@
 class StateApi {
   constructor(rawData) {
-    this.rawData = rawData;
+    this.data = {
+      Widgets: this.mapIntoObject(rawData.tabbedWidgets),
+    };
   }
 
   mapIntoObject(arr) {
@@ -11,15 +13,19 @@ class StateApi {
   }
 
   getWidgets = () => {
-    return this.mapIntoObject(this.rawData.tabbedWidgets);
-  }
+    return null;
+  };
 
   getPanels = (panels) => {
     return this.mapIntoObject(panels);
-  }
+  };
 
   getTabs = (tabs) => {
     return this.mapIntoObject(tabs);
+  };
+
+  getState = () => {
+    return this.data;
   }
 }
 

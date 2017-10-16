@@ -6,10 +6,8 @@ import Tabs from './Tabs';
 class TabbedWidget extends Component {
   constructor(props) {
     super(props);
-    this.panels = this.props.api.getPanels(this.props.tabbedWidget.panels);
-    this.tabs = this.props.api.getTabs(this.props.tabbedWidget.tabs);
-    console.log(this.props.tabbedWidget.panels);
-    // console.log(this.tabs);
+    this.panels = this.props.store.getPanels(this.props.tabbedWidget.panels);
+    this.tabs = this.props.store.getTabs(this.props.tabbedWidget.tabs);
   }
   render() {
     return (

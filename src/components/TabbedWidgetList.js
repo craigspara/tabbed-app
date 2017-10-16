@@ -5,11 +5,11 @@ class TabbedWidgetList extends Component {
   render() {
     return (
       <div>
-        {Object.values(this.props.tabbedWidgets).map(tabbedWidget =>
+        {Object.values(this.props.store.data.Widgets).map(tabbedWidget =>
           <TabbedWidget
             key={tabbedWidget.id}
             tabbedWidget={tabbedWidget}
-            api={this.props.api}
+            store={this.props.store}
           />
         )}
       </div>
