@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+
 import './TabbedWidget.css';
 import Panels from './Panels';
 import Tabs from './Tabs';
@@ -10,12 +12,14 @@ class TabbedWidget extends Component {
     this.tabs = this.props.store.getTabs(this.props.tabbedWidget.tabs);
   }
   render() {
+    let heading = null;
+    if (this.props.tabbedWidget.widgetHeading) {
+      heading = <h2 className="tabbed-widget__heading">{this.props.tabbedWidget.widgetHeading}</h2>;
+    }
     return (
       <div className="tabbed-widget__container">
-        <h2 className="tabbed-widget__heading">{this.props.tabbedWidget.widgetHeading}</h2>
-        <section className="tabbed-widget tabbed-widget_horizontal tabbed-widget_1" role="application" data-tabbed-widget-options='{"layout":"horizontal"}' data-tabbed-widget-filter-options='{"tab1":"TAG_1","tab2":"TAG_2","tab3":"TAG_3","tab4":"TAG_4","tab5":"TAG_5","tab6":"TAG_6","tab7":"TAG_7"}'
-
-        >
+        {heading}
+        <section className="tabbed-widget tabbed-widget_horizontal tabbed-widget_1" role="application">
           <div className="tabbed-widget__inner-wrapper">
             <Panels panels={this.panels} />
             <Tabs tabs={this.tabs} />
@@ -25,5 +29,19 @@ class TabbedWidget extends Component {
     );
   }
 }
+
+TabbedWidget.propTypes = {
+  store: PropTypes.shape({
+    getPanels: PropTypes.func.isRequired,
+    getTabs: PropTypes.func.isRequired,
+  }),
+  tabbedWidget: PropTypes.shape({
+    panels: PropTypes.array.isRequired,
+    tabs: PropTypes.array.isRequired,
+    widgetHeading: PropTypes.string,
+  }),
+  filters: PropTypes.objectOf(PropTypes.string),
+  options: PropTypes.objectOf(PropTypes.string),
+};
 
 export default TabbedWidget;

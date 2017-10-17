@@ -12,10 +12,6 @@ class StateApi {
     }, {});
   }
 
-  getWidgets = () => {
-    return null;
-  };
-
   getPanels = (panels) => {
     return this.mapIntoObject(panels);
   };

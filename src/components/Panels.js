@@ -1,21 +1,24 @@
-import React, { Component } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
+
 import Panel from './Panel';
 import './Panels.css';
 
-class Panels extends Component {
-  
-  render() {
-    return (
-      <div className="tabbed-widget__panel-wrapper">
-        {Object.values(this.props.panels).map(panel =>
-          <Panel
-            key={panel.id}
-            panel={panel}
-          />
-        )}
-      </div>
-    );
-  }
-}
+const Panels = (props) => {
+  return (
+    <div className="tabbed-widget__panel-wrapper">
+      {Object.values(props.panels).map(panel =>
+        <Panel
+          key={panel.id}
+          panel={panel}
+        />
+      )}
+    </div>
+  );
+};
+
+Panels.propTypes = {
+  panels: PropTypes.object.isRequired,
+};
 
 export default Panels;

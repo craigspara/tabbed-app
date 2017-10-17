@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+
 import TabbedWidget from './TabbedWidget';
 
 class TabbedWidgetList extends Component {
@@ -10,11 +12,21 @@ class TabbedWidgetList extends Component {
             key={tabbedWidget.id}
             tabbedWidget={tabbedWidget}
             store={this.props.store}
+            options={tabbedWidget.options}
+            filters={tabbedWidget.filters}
           />
         )}
       </div>
     );
   }
 }
+
+TabbedWidgetList.propTypes = {
+  store: PropTypes.shape({
+    data: PropTypes.shape({
+      Widgets: PropTypes.object.isRequired,
+    }),
+  })
+};
 
 export default TabbedWidgetList;

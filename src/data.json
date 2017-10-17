@@ -4,6 +4,14 @@
       {
         "id": "tabbed-widget_1",
         "widgetHeading": "Widget 1",
+        "options": {
+          "layout":"horizontal"
+        },
+        "filters": {
+          "tab1":"TAG_1",
+          "tab2":"TAG_2",
+          "tab3":"TAG_3"
+        },
         "panels": [
           {
             "id": "tabbed-widget__tab-panel1",
@@ -51,6 +59,14 @@
       {
         "id": "tabbed-widget_2",
         "widgetHeading": "Widget 2",
+        "options": {
+          "layout":"horizontal"
+        },
+        "filters": {
+          "tab1":"TAG_1",
+          "tab2":"TAG_2",
+          "tab3":"TAG_3"
+        },
         "panels": [
           {
             "id": "tabbed-widget__tab-panel1",

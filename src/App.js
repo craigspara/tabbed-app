@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+
 import './App.css';
 
 import TabbedWidgetList from './components/TabbedWidgetList';
-// import StateApi from './state-api/StateApi';
-
-// console.log(StateApi);
 
 class App extends Component {
   constructor(props) {
@@ -13,7 +12,6 @@ class App extends Component {
   }
 
   render() {
-    // console.log(props);
     return (
       <div className="App">
         <header className="App-header">
@@ -29,5 +27,12 @@ class App extends Component {
     );
   }
 }
+
+App.propTypes = {
+  store: PropTypes.shape({
+    data: PropTypes.object.isRequired,
+    getState: PropTypes.func.isRequired,
+  }),
+};
 
 export default App;

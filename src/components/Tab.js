@@ -1,21 +1,28 @@
-import React, { Component } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 
-class Tab extends Component {
-  render() {
-    return (
-      <li id={this.props.tab.id}
-        className="tabbed-widget__tab"
-        role="tab"
-        aria-controls={this.props.tab.ariaControls}
-        aria-selected={this.props.tab.ariaSelected}
-        tabIndex="0"
-        data-tabbed-widget-filter="TAG_1">
-        <a href="#"
-          className="tabbed-widget__tab-link">{this.props.tab.tabLabel}</a>
-      </li>
-    );
-  }
-}
+const Tab = (props) => {
+  return (
+    <li id={props.tab.id}
+      className="tabbed-widget__tab"
+      role="tab"
+      aria-controls={props.tab.ariaControls}
+      aria-selected={props.tab.ariaSelected}
+      tabIndex="0"
+      data-tabbed-widget-filter="TAG_1">
+      <button
+        className="tabbed-widget__tab-link">{props.tab.tabLabel}</button>
+    </li>
+  );
+};
 
+Tab.propTypes = {
+  tab: PropTypes.shape({
+    id: PropTypes.string.isRequired,
+    ariaControls: PropTypes.string.isRequired,
+    ariaSelected: PropTypes.bool.isRequired,
+    tabLabel: PropTypes.any.isRequired,
+  })
+};
 
 export default Tab;

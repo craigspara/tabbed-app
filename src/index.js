@@ -8,6 +8,5 @@ import { data } from './data';
 import registerServiceWorker from './registerServiceWorker';
 
 const store = new StateApi(data);
-console.log(store);
 ReactDOM.render(<App store={store} />, document.getElementById('root'));
 registerServiceWorker();
