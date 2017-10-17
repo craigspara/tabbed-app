@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import Tab from './Tab';
 import './Tabs.css';
 
-const Tabs = (props) => {
+const TabList = (props) => {
   return (
     <div className="tabbed-widget__nav-wrapper">
       <ul className="tabbed-widget__nav" role="tablist" >
@@ -19,10 +19,10 @@ const Tabs = (props) => {
   );
 };
 
-Tabs.PropTypes = {
+TabList.PropTypes = {
   tabs: PropTypes.shape({
     id: PropTypes.string.isRequired,
   }),
 };
 
-export default Tabs;
+export default TabList;

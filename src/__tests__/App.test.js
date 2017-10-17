@@ -13,9 +13,6 @@ Enzyme.configure({ adapter: new Adapter() });
 const store = new StateApi(data);
 const state = store.getState();
 
-console.log(store);
-console.log(state);
-
 const testProps = {
   tabbedWidgets: {
     a: { id: 'a' },

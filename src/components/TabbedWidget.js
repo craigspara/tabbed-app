@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 import './TabbedWidget.css';
-import Panels from './Panels';
-import Tabs from './Tabs';
+import Panels from './PanelList';
+import Tabs from './TabList';
 
 class TabbedWidget extends Component {
   constructor(props) {

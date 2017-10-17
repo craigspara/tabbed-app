@@ -2,7 +2,6 @@ import StateApi from '../StateApi';
 import { data } from '../../data';
 
 const store = new StateApi(data);
-// console.info(store.data);
 
 describe('The StateApi', () => {
 
