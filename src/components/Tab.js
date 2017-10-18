@@ -11,7 +11,7 @@ const Tab = (props) => {
       tabIndex="0"
       data-tabbed-widget-filter="TAG_1">
       <button
-        className="tabbed-widget__tab-link">{props.tab.tabLabel}</button>
+        className="tabbed-widget__tab-link" type="button" value={props.tab.ariaControls}>{props.tab.tabLabel}</button>
     </li>
   );
 };
