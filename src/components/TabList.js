@@ -7,7 +7,7 @@ import './Tabs.css';
 const TabList = (props) => {
   return (
     <div className="tabbed-widget__nav-wrapper">
-      <ul className="tabbed-widget__nav" role="tablist" >
+      <ul className="tabbed-widget__nav" role="tablist" onClick={(e) => {props.handleTabClick(e);}}>
         {Object.values(props.tabs).map(tab =>
           <Tab
             key={tab.id}

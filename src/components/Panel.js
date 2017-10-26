@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Panel = (props) => {
+export const Panel = (props) => {
   let heading = null, body = null;
   if (props.panel.panelHeading) {
     heading = <h3 className="tabbed-widget__panel-heading">{props.panel.panelHeading}</h3>;

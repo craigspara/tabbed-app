@@ -7,7 +7,7 @@ class TabbedWidgetList extends Component {
   render() {
     return (
       <div>
-        {Object.values(this.props.store.data.Widgets).map(tabbedWidget =>
+        {Object.values(this.props.tabbedWidgets).map(tabbedWidget =>
           <TabbedWidget
             key={tabbedWidget.id}
             tabbedWidget={tabbedWidget}
@@ -22,11 +22,7 @@ class TabbedWidgetList extends Component {
 }
 
 TabbedWidgetList.propTypes = {
-  store: PropTypes.shape({
-    data: PropTypes.shape({
-      Widgets: PropTypes.object.isRequired,
-    }),
-  })
+  tabbedWidgets: PropTypes.object.isRequired,
 };
 
 export default TabbedWidgetList;

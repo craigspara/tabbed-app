@@ -1,5 +1,4 @@
 import React from 'react';
-// import ReactDOM from 'react-dom';
 import App from '../App';
 
 import Enzyme, { shallow } from 'enzyme';
@@ -13,30 +12,23 @@ Enzyme.configure({ adapter: new Adapter() });
 const store = new StateApi(data);
 const state = store.getState();
 
-const testProps = {
-  tabbedWidgets: {
-    a: { id: 'a' },
-    b: { id: 'b' },
-  },
-};
 
 describe('App', () => {
+  const wrapper = shallow(<App store={store}/>);
 
   it('Can get widgets', () => {
     // console.info(store);
     expect(store.getState()).toBeDefined();
+    expect(wrapper.instance().props.store).toBeInstanceOf(StateApi);
   });
 
-  /*it('renders correctly', () => {
-    const wrapper = shallow(
-      <App
-        {...testProps}
-      />
-    );
-
-    expect(wrapper.find('Widgets').length).toBe(1);
-
+  it('renders correctly', () => {
     expect(wrapper).toMatchSnapshot();
-  });*/
+  });
+
+  it('has state', () => {
+    // console.info(wrapper.instance().state);
+    expect(wrapper.instance().state).toBeDefined();
+  });
 
 });

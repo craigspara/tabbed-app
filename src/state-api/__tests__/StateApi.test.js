@@ -12,7 +12,6 @@ describe('The StateApi', () => {
   const tabs = store.getTabs(tabbedWidget.tabs);
   const tab = tabs[data.tabbedWidgets[0].tabs[0].id];
 
-
   it('can initialize a new instance of StateApi', () => {
     expect(store).toBeDefined();
     expect(store).toBeInstanceOf(StateApi);
@@ -23,13 +22,21 @@ describe('The StateApi', () => {
   });
 
   it('the "getPanels" method returns and object', () => {
-    expect(tabbedWidgets.constructor).toEqual(Object);
+    const returnedType = store.getPanels([]);
+    expect(returnedType instanceof Object).toBe(true);
+  });
+
+  test('the getPanels method throws an error id not passed an array', () => {
+    expect(() => {store.getPanels({});}).toThrow();
   });
 
   it('the "getTabs" method returns and object', () => {
     expect(tabbedWidgets.constructor).toEqual(Object);
   });
 
+  test('the getTabs method throws an error id not passed an array', () => {
+    expect(() => {store.getTabs({});}).toThrow();
+  });
 
   describe('The TabbedWidgets collection object', () => {
     it('is defined and contains one or more "tabbedWidgets"', () => {
