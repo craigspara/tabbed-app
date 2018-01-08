@@ -4,9 +4,9 @@
   "author": "Craig Spara",
   "email": "craig@craigspara.com",
   "homepage": "http://craigspara.github.io/tabbed-app",
-  "repository": "",
+  "repository": "http://github.com/craigspara/tabbed-app",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "dependencies": {
     "babel-polyfill": "6.26.0",
     "prop-types": "^15.6.0",
@@ -26,6 +26,7 @@
     "enzyme": "3.1.0",
     "enzyme-adapter-react-15": "1.0.1",
     "enzyme-adapter-react-16": "^1.0.1",
+    "gh-pages": "1.1.0",
     "react-test-renderer": "^16.0.0"
   },
   "unmockedModulePathPatterns": [
