@@ -61,8 +61,8 @@ export class TabbedWidget extends Component {
         {heading}
         <section className="tabbed-widget tabbed-widget_horizontal tabbed-widget_1" role="application">
           <div className="tabbed-widget__inner-wrapper">
-            <Panels panels={this.state.panels}/>
             <Tabs tabs={this.state.tabs} handleTabClick={this.handleTabClick}/>
+            <Panels panels={this.state.panels}/>
           </div>
         </section>
       </div>

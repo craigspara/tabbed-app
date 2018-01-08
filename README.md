@@ -1,3 +1,9 @@
+# About this project
+
+This React based tabbed widget built as an example while learning React. 
+
+THIS PROJECT IS A WORK IN PROGRESS AND IS NOT FOR PRODUCTION
+---------------------
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

@@ -10,10 +10,8 @@ body {
 .tabbed-widget__nav-wrapper {
   position: relative;
   z-index: 1;
-  margin-top: -41px;
-  /*width: 165px;*/
+  /*margin-top: -41px;*/
   height: 41px;
-  /*background-color: #cccccc; */
 }
 
 .tabbed-widget__nav {
@@ -29,12 +27,11 @@ body {
   display: block;
   text-align: center;
   height: auto;
-  background-color: #eeeeee;
+  /*background-color: #eeeeee;*/
 }
 
 .tabbed-widget__panel-wrapper {
   position: relative;
-  /*background-color: #a0c8ea;*/
   width: 100%;
   height: 391px;
 }
@@ -43,7 +40,6 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  /*background-color: #0bb3da; */
 }
 
 .tabbed-widget__tab-link {
@@ -52,7 +48,7 @@ body {
   width: 100%;
   box-sizing: border-box;
   padding: 14px;
-  font-family: "BrandonGrotesqueWeb-Regular", "BertholdAkzidenzGroteskLight", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 0.92307692em;
   color: #676767;
   text-transform: uppercase;
@@ -96,7 +92,6 @@ body {
   opacity: 1;
   z-index: 1;
   transition: opacity 0.1s;
-  /*background-color: blue;*/
 }
 
 .tabbed-widget__panel[aria-expanded="false"] {
@@ -139,5 +134,5 @@ body {
 
 .tabbed-widget__container {
     width: 100%;
-    background-color: greenyellow;
+    /*background-color: greenyellow;*/
 }

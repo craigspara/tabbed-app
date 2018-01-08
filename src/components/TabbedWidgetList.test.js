@@ -63,61 +63,6 @@ const data = {
         }
       ]
     },
-    /*{
-      'id': 'tabbed-widget_2',
-      'widgetHeading': 'Widget 2',
-      'options': {
-        'layout':'horizontal'
-      },
-      'filters': {
-        'tab1':'TAG_1',
-        'tab2':'TAG_2',
-        'tab3':'TAG_3'
-      },
-      'panels': [
-        {
-          'id': 'tabbed-widget__tab-panel1',
-          'panelHeading': 'Panel 1',
-          'panelBody': 'Lorum ipsum sit dolar.',
-          'labeledBy': 'tabbed-widget__tab1',
-          'isPanelExpanded': true
-        },
-        {
-          'id': 'tabbed-widget__tab-panel2',
-          'panelHeading': 'Panel 2',
-          'panelBody': 'Lorum ipsum sit dolar.',
-          'labeledBy': 'tabbed-widget__tab2',
-          'isPanelExpanded': false
-        },
-        {
-          'id': 'tabbed-widget__tab-panel3',
-          'panelHeading': 'Panel 3',
-          'panelBody': 'Lorum ipsum sit dolar.',
-          'labeledBy': 'tabbed-widget__tab3',
-          'isPanelExpanded': false
-        }
-      ],
-      'tabs': [
-        {
-          'id': 'tabbed-widget__tab1',
-          'tabLabel': 'Tab 1',
-          'ariaControls': 'tabbed-widget__tab-panel1',
-          'ariaSelected': true
-        },
-        {
-          'id': 'tabbed-widget__tab2',
-          'tabLabel': 'Tab 2',
-          'ariaControls': 'tabbed-widget__tab-panel2',
-          'ariaSelected': false
-        },
-        {
-          'id': 'tabbed-widget__tab3',
-          'tabLabel': 'Tab 3',
-          'ariaControls': 'tabbed-widget__tab-panel3',
-          'ariaSelected': false
-        }
-      ]
-    }*/
   ]
 };
 const store = new StateApi(data);

@@ -1,13 +1,15 @@
+/*Tab.css*/
+.TabLabel {
+    color: green;
+}
 .tabbed-widget__tab {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     display: block;
     text-align: center;
     height: auto;
-    background-color: #eeeeee;
+    background-color: #666666;
 }
-
-
 
 .tabbed-widget__tab-link {
     display: block;
@@ -15,7 +17,7 @@
     width: 100%;
     box-sizing: border-box;
     padding: 14px;
-    font-family: "BrandonGrotesqueWeb-Regular", "BertholdAkzidenzGroteskLight", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 0.92307692em;
     color: #676767;
     text-transform: uppercase;
@@ -33,7 +35,7 @@
 
 .tabbed-widget__tab-link:hover, .tabbed-widget__tab-link:active {
     color: #676767;
-    background-color: #dddddd;
+    background-color: #aaaaaa;
 }
 
 .tabbed-widget__tab:focus {
@@ -52,7 +54,7 @@
 }
 .tabbed-widget__tab[aria-selected="true"] .tabbed-widget__tab-link {
     color: #676767;
-    background-color: #dddddd;
+    background-color: #aaaaaa;
 }
 
 /* ie8 fallback */

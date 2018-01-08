@@ -1,6 +1,5 @@
 .tabbed-widget__panel-wrapper {
     position: relative;
-    /*background-color: #a0c8ea;*/
     width: 100%;
     height: 391px;
 }
@@ -9,14 +8,13 @@
     position: absolute;
     top: 0;
     left: 0;
-    /*background-color: #0bb3da; */
 }
 
 .tabbed-widget__panel, .tabbed-widget__panel.tabbed-widget__panel_expanded {
     opacity: 1;
     z-index: 1;
     transition: opacity 0.1s;
-    /*background-color: blue;*/
+    width: 100%;
 }
 
 .tabbed-widget__panel[aria-expanded="false"] {

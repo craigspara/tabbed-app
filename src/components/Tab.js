@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import './Tab.css';
+
 const Tab = (props) => {
   return (
     <li id={props.tab.id}
