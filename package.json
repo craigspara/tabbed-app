@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "author": "Craig Spara",
   "email": "craig@craigspara.com",
+  "homepage": "http://craigspara.github.io/tabbed-app",
   "repository": "",
   "license": "MIT",
   "private": true,
@@ -17,7 +18,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom --no-cache --setupTestFrameworkScriptFile=raf/polyfill",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "enzyme": "3.1.0",
