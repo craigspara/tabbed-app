@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import Panel from './Panel';
-import './Panels.css';
+import './PanelList.css';
 
 const PanelList = (props) => {
   return (
